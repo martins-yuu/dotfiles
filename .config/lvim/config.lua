@@ -5,3 +5,7 @@
 
 vim.opt.relativenumber = true
 lvim.transparent_window = true
+
+lvim.plugins = {
+  { "github/copilot.vim" },
+}
