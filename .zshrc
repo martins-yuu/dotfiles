@@ -85,6 +85,8 @@ source $ZSH/oh-my-zsh.sh
 
 export FLUTTER_ROOT="$(asdf where flutter)"
 
+eval "$(github-copilot-cli alias -- "$0")"
+
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
