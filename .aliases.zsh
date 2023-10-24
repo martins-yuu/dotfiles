@@ -4,7 +4,7 @@ alias config='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 # Shell
 alias cd="z"
-alias ls="exa --icons"
+alias ls="eza --icons"
 alias cat="bat"
 alias cl="clear"
 
