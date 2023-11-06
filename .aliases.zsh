@@ -18,3 +18,6 @@ alias pc="sudo pacman -Scc"
 alias c="code -r"
 alias name="names | tr '-' '_'"
 alias nf="clear && neofetch"
+alias nrm="norminette -R CheckForbiddenSourceHeader"
+alias francinette="$HOME"/francinette/tester.sh
+alias paco="$HOME"/francinette/tester.sh
