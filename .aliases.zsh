@@ -6,6 +6,7 @@ alias config='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias cd="z"
 alias ls="eza --icons"
 alias cat="bat"
+alias grep="rg"
 alias cl="clear"
 
 # Arch
