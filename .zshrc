@@ -83,8 +83,10 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
+# Flutter SDK
 export FLUTTER_ROOT="$(asdf where flutter)"
 
+# GitHub Copilot CLI
 eval "$(github-copilot-cli alias -- "$0")"
 
 # export MANPATH="/usr/local/man:$MANPATH"
