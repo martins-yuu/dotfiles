@@ -20,5 +20,5 @@ alias c="code -r"
 alias name="names | tr '-' '_'"
 alias nf="clear && neofetch"
 alias nrm="norminette -R CheckForbiddenSourceHeader"
-alias francinette="$HOME"/francinette/tester.sh
-alias paco="$HOME"/francinette/tester.sh
+alias fran="$HOME/francinette/tester.sh"
+alias make50='make CC=clang CFLAGS="-fsanitize=signed-integer-overflow -fsanitize=undefined -ggdb3 -O0 -std=c11 -Wall -Werror -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-variable -Wshadow" LDLIBS="-lcrypt -lcs50 -lm"'
