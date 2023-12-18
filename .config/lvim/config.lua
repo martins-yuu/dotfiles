@@ -5,7 +5,9 @@
 
 vim.opt.relativenumber = true
 lvim.transparent_window = true
+lvim.colorscheme = "tokyonight"
 
 lvim.plugins = {
   { "github/copilot.vim" },
+  {"folke/tokyonight.nvim"},
 }
