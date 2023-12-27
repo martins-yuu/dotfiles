@@ -8,6 +8,12 @@ lvim.transparent_window = true
 lvim.colorscheme = "tokyonight"
 
 lvim.plugins = {
+  { "folke/tokyonight.nvim" },
+  {
+    "Pocco81/auto-save.nvim",
+    config = function()
+      require("auto-save").setup()
+    end
+  },
   { "github/copilot.vim" },
-  {"folke/tokyonight.nvim"},
 }
