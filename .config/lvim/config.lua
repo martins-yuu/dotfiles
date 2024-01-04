@@ -15,6 +15,7 @@ lvim.plugins = {
       require("auto-save").setup()
     end,
   },
+  { "tpope/vim-surround" },
   {
     "karb94/neoscroll.nvim",
     event = "WinScrolled",
