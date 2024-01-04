@@ -52,3 +52,9 @@ lvim.plugins = {
     end,
   },
 }
+
+if vim.g.neovide then
+  lvim.transparent_window = false
+  vim.o.guifont = "CaskaydiaCove Nerd Font"
+  vim.g.neovide_transparency = 95 / 100
+end
