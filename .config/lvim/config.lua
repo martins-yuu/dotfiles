@@ -6,6 +6,7 @@
 vim.opt.relativenumber = true
 lvim.transparent_window = true
 lvim.colorscheme = "tokyonight"
+lvim.builtin.lualine.options.section_separators = { left = "", right = "" }
 
 lvim.plugins = {
   { "folke/tokyonight.nvim" },
